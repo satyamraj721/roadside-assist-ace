@@ -6,27 +6,27 @@ export const MarketPotential = () => {
   const marketStats = [
     {
       icon: Globe,
-      value: "$180B",
+      value: "Massive",
       label: "Global Auto Service Market",
-      growth: "+5.2% CAGR"
+      growth: "Growing rapidly"
     },
     {
       icon: Users,
-      value: "280M+",
-      label: "Vehicles on Road (US)",
-      growth: "Growing annually"
+      value: "Millions",
+      label: "Vehicle Owners Need Help",
+      growth: "Daily breakdowns"
     },
     {
       icon: DollarSign,
-      value: "$500+",
-      label: "Avg Annual Maintenance Cost",
-      growth: "Per vehicle owner"
+      value: "High",
+      label: "Current Service Costs",
+      growth: "Due to inefficiency"
     },
     {
       icon: Zap,
-      value: "40M",
-      label: "Roadside Incidents/Year",
-      growth: "In US alone"
+      value: "Frequent",
+      label: "Roadside Emergencies",
+      growth: "Underserved market"
     }
   ];
 
@@ -94,36 +94,36 @@ export const MarketPotential = () => {
             </div>
           </div>
 
-          {/* Revenue Projections */}
+          {/* Business Model */}
           <Card className="bg-gradient-card border-0 shadow-medium">
             <CardContent className="p-8">
               <div className="flex items-center gap-2 mb-6">
                 <TrendingUp className="h-6 w-6 text-primary" />
-                <h3 className="text-2xl font-bold text-autoaid-gray-900">Revenue Projections</h3>
+                <h3 className="text-2xl font-bold text-autoaid-gray-900">Business Model Strategy</h3>
               </div>
 
               <div className="space-y-6">
-                <div className="flex justify-between items-center p-4 bg-autoaid-gray-50 rounded-lg">
-                  <span className="font-medium">Year 1 Target</span>
-                  <span className="text-xl font-bold text-primary">$2.5M</span>
+                <div className="p-4 bg-autoaid-gray-50 rounded-lg">
+                  <h4 className="font-semibold text-autoaid-gray-900 mb-2">Commission-Based Revenue</h4>
+                  <p className="text-muted-foreground text-sm">Small percentage from each completed service</p>
                 </div>
-                <div className="flex justify-between items-center p-4 bg-autoaid-gray-50 rounded-lg">
-                  <span className="font-medium">Year 3 Target</span>
-                  <span className="text-xl font-bold text-primary">$25M</span>
+                <div className="p-4 bg-autoaid-gray-50 rounded-lg">
+                  <h4 className="font-semibold text-autoaid-gray-900 mb-2">Premium Subscriptions</h4>
+                  <p className="text-muted-foreground text-sm">Enhanced features for mechanics and users</p>
                 </div>
-                <div className="flex justify-between items-center p-4 bg-autoaid-gray-50 rounded-lg">
-                  <span className="font-medium">Year 5 Target</span>
-                  <span className="text-xl font-bold text-primary">$100M</span>
+                <div className="p-4 bg-autoaid-gray-50 rounded-lg">
+                  <h4 className="font-semibold text-autoaid-gray-900 mb-2">Partnership Revenue</h4>
+                  <p className="text-muted-foreground text-sm">Integrations with insurance companies and fleet services</p>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-primary/10 rounded-lg">
-                <div className="text-sm text-primary font-medium mb-1">Business Model</div>
-                <div className="text-sm text-muted-foreground">15% commission + Premium subscriptions</div>
+                <div className="text-sm text-primary font-medium mb-1">Revenue Streams</div>
+                <div className="text-sm text-muted-foreground">Multiple monetization paths for sustainable growth</div>
               </div>
 
               <Button className="w-full mt-6" variant="cta">
-                View Detailed Projections
+                Explore Business Plan
               </Button>
             </CardContent>
           </Card>

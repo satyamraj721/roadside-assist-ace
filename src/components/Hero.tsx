@@ -45,22 +45,22 @@ export const Hero = () => {
               </Button>
             </div>
 
-            {/* Stats */}
+            {/* Vision Stats */}
             <div className="flex flex-wrap gap-8 justify-center lg:justify-start text-white">
               <div className="text-center">
-                <div className="text-2xl font-bold">10k+</div>
-                <div className="text-white/70 text-sm">Verified Mechanics</div>
+                <div className="text-2xl font-bold">24/7</div>
+                <div className="text-white/70 text-sm">Service Vision</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold">5 min</div>
-                <div className="text-white/70 text-sm">Avg Response Time</div>
+                <div className="text-2xl font-bold">&lt;5 min</div>
+                <div className="text-white/70 text-sm">Target Response</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center gap-1">
-                  <span className="text-2xl font-bold">4.9</span>
+                  <span className="text-2xl font-bold">100%</span>
                   <Star className="h-5 w-5 text-accent fill-accent" />
                 </div>
-                <div className="text-white/70 text-sm">User Rating</div>
+                <div className="text-white/70 text-sm">Verified Mechanics</div>
               </div>
             </div>
           </div>

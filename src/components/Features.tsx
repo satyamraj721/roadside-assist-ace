@@ -108,11 +108,11 @@ export const Features = () => {
         {/* CTA Section */}
         <div className="text-center bg-autoaid-gray-50 rounded-2xl p-12">
           <h3 className="text-3xl font-bold text-autoaid-gray-900 mb-4">
-            Ready to Transform Roadside Assistance?
+            Ready to Build the Future of Roadside Assistance?
           </h3>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join thousands of vehicle owners and mechanics who trust AutoAid for reliable, 
-            transparent, and efficient roadside assistance services.
+            AutoAid is designed to revolutionize how vehicle owners connect with mechanics. 
+            A platform built for reliability, transparency, and efficiency.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg">
